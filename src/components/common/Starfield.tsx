@@ -16,7 +16,7 @@ export const Starfield = () => {
     if (!ctx) return;
 
     let stars: { x: number; y: number; z: number; }[] = [];
-    const numStars = 800; // Increased from 500
+    const numStars = 1200;
 
     const setup = () => {
       canvas.width = window.innerWidth;
@@ -32,14 +32,15 @@ export const Starfield = () => {
     };
 
     const draw = () => {
+      if (!ctx) return;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = theme === 'dark' || theme === 'system' ? 'hsl(var(--foreground))' : 'hsl(var(--background))';
+      const starColor = theme === 'dark' || theme === 'system' ? '#FFFFFF' : '#000000';
       
       ctx.save();
       ctx.translate(canvas.width / 2, canvas.height / 2);
 
       stars.forEach(star => {
-        star.z -= 1.5; // Increased from 1 for more speed
+        star.z -= 2;
         if (star.z <= 0) {
           star.x = (Math.random() * canvas.width) - (canvas.width / 2);
           star.y = (Math.random() * canvas.height) - (canvas.height / 2);
@@ -49,7 +50,12 @@ export const Starfield = () => {
         const k = 128 / star.z;
         const px = star.x * k;
         const py = star.y * k;
-        const r = Math.max(0.5, (1 - star.z / canvas.width) * 2.5); // Slightly larger stars
+        
+        const size = (1 - star.z / canvas.width) * 4;
+        const r = Math.max(0.1, size);
+        
+        const opacity = (1 - star.z / canvas.width) * 0.8;
+        ctx.fillStyle = `rgba(${theme === 'dark' ? '255,255,255' : '0,0,0'}, ${opacity})`;
 
         ctx.beginPath();
         ctx.arc(px, py, r, 0, 2 * Math.PI);
@@ -78,5 +84,5 @@ export const Starfield = () => {
     };
   }, [theme]);
 
-  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10 opacity-70" />; // Increased opacity
+  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10 opacity-50" />;
 };
