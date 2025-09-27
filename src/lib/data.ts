@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { placeholderImages } from '@/lib/placeholder-images';
 
 export const navLinks = [
@@ -75,8 +75,8 @@ export const socialLinks = [
     icon: Linkedin,
   },
   {
-    name: 'Twitter',
-    url: 'https://twitter.com',
-    icon: Twitter,
+    name: 'Mail',
+    url: 'mailto:richard.abishekraj@email.com',
+    icon: Mail,
   },
 ];
