@@ -16,7 +16,7 @@ const education = [
     degree: "State Board",
     duration: "Sep 2021 – May 2022",
     location: "Chennai, Tamil Nadu",
-    description: "Completed my higher secondary education with a focus on science and mathematics.",
+    description: "Completed my higher secondary education with a focus on science, mathematics, and computer science.",
     icon: School,
   },
 ];
