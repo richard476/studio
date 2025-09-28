@@ -56,7 +56,7 @@ export const projects = [
     description: [
       'Developed a Cricket Team Management System using Python and machine learning to optimize player selection and performance analysis.',
       'Built predictive models to forecast player performance, suggest team strategies, and reduce injury risks.',
-      'Designed a modular architecture integrating ML models, database systems, and user roles for efficient team management workflows.',
+      'Designed a modular architecture integrating ML models, database systems, and user roles for in-efficient team management workflows.',
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
@@ -86,7 +86,7 @@ export const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/richard-abishekraj-34981a300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    url: 'https://www.linkedin.com/in/richard-abishekraj-m-34981a300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     icon: Linkedin,
   },
   {
