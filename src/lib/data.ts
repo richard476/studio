@@ -47,7 +47,7 @@ export const projects = [
     ],
     technologies: ['Python', 'HTML5', 'JavaScript', 'CSS3/Tailwind CSS', 'Gemini API'],
     image: placeholderImages.find(p => p.id === "project-1")?.imageUrl ?? "",
-    imageHint: "natural language processing",
+    imageHint: 'natural language processing',
     repoUrl: 'https://github.com/richard476/Advanced-Text-Summarizer-using-Google_Gemini-API',
   },
   {
@@ -56,11 +56,11 @@ export const projects = [
     description: [
       'Developed a Cricket Team Management System using Python and machine learning to optimize player selection and performance analysis.',
       'Built predictive models to forecast player performance, suggest team strategies, and reduce injury risks.',
-      'Designed a modular architecture integrating ML models, database systems, and user roles for in-efficient team management workflows.',
+      'Designed a modular architecture integrating ML models, database systems, and user roles for efficient team management workflows.',
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
-    imageHint: "player statistics",
+    imageHint: 'player statistics',
     repoUrl: 'https://github.com/richard476/Cricket-Team-management-System',
   },
   {
@@ -73,7 +73,7 @@ export const projects = [
     ],
     technologies: ['Python', 'Tkinter', 'Pygame', 'Pydub', 'ffmpeg'],
     image: placeholderImages.find(p => p.id === "project-3")?.imageUrl ?? "",
-    imageHint: "music player interface",
+    imageHint: 'music player interface',
     repoUrl: 'https://github.com/richard476/Music-Player-using-Swift-for-IOS',
   },
 ];
