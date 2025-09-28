@@ -47,7 +47,7 @@ export const projects = [
     ],
     technologies: ['Python', 'HTML5', 'JavaScript', 'CSS3/Tailwind CSS', 'Gemini API'],
     image: placeholderImages.find(p => p.id === "project-1")?.imageUrl ?? "",
-    imageHint: 'natural language processing',
+    imageHint: 'abstract code',
     repoUrl: 'https://github.com/richard476/Advanced-Text-Summarizer-using-Google_Gemini-API',
   },
   {
@@ -60,7 +60,7 @@ export const projects = [
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
-    imageHint: 'player statistics',
+    imageHint: 'data analytics',
     repoUrl: 'https://github.com/richard476/Cricket-Team-management-System',
   },
   {
@@ -73,8 +73,8 @@ export const projects = [
     ],
     technologies: ['Python', 'Tkinter', 'Pygame', 'Pydub', 'ffmpeg'],
     image: placeholderImages.find(p => p.id === "project-3")?.imageUrl ?? "",
-    imageHint: 'music player interface',
-    repoUrl: 'https://github.com/richard476/Music-Player-using-Swift-for-IOS',
+    imageHint: 'source code',
+    repoUrl: 'https://github.com/richard476/Richard-Music-Player',
   },
 ];
 
