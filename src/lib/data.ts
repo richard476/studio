@@ -36,7 +36,7 @@ export const projects = [
     technologies: ['Python', 'HTML5', 'JavaScript', 'CSS3/Tailwind CSS', 'Gemini API'],
     image: placeholderImages.find(p => p.id === "project-1")?.imageUrl ?? "",
     imageHint: placeholderImages.find(p => p.id === "project-1")?.imageHint ?? "text summarization",
-    repoUrl: '#',
+    repoUrl: 'https://github.com/richard476/Advanced-Text-Summarizer-using-Google_Gemini-API',
   },
   {
     id: 2,
