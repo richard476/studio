@@ -50,7 +50,7 @@ export function Header() {
               </a>
             ))}
             <Button asChild>
-              <a href="/richard_abishekraj_resume.pdf" download>
+              <a href="https://drive.google.com/drive/folders/1LkmGTqKxfllryzfDQR_IE4jIHItaGQ53" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
               </a>
@@ -98,7 +98,7 @@ export function Header() {
                   </a>
                 ))}
                 <Button asChild size="lg" className="w-full mt-4">
-                  <a href="/richard_abishekraj_resume.pdf" download>
+                  <a href="https://drive.google.com/drive/folders/1LkmGTqKxfllryzfDQR_IE4jIHItaGQ53" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-4 w-4" />
                     Resume
                   </a>

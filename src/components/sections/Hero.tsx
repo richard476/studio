@@ -30,7 +30,7 @@ export function Hero() {
               </a>
             </Button>
              <Button size="lg" variant="outline" asChild>
-              <a href="/richard_abishekraj_resume.pdf" download>
+              <a href="https://drive.google.com/drive/folders/1LkmGTqKxfllryzfDQR_IE4jIHItaGQ53" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2" />
                 View My Resume
               </a>
