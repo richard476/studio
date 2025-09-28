@@ -62,7 +62,7 @@ export const projects = [
     technologies: ['Python', 'Tkinter', 'Pygame', 'Pydub', 'ffmpeg'],
     image: placeholderImages.find(p => p.id === "project-3")?.imageUrl ?? "",
     imageHint: placeholderImages.find(p => p.id === "project-3")?.imageHint ?? "music player",
-    repoUrl: '#',
+    repoUrl: 'https://github.com/richard476/Music-Player-using-Swift-for-IOS',
   },
 ];
 
