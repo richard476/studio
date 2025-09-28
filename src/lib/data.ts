@@ -35,7 +35,7 @@ export const projects = [
     ],
     technologies: ['Python', 'HTML5', 'JavaScript', 'CSS3/Tailwind CSS', 'Gemini API'],
     image: placeholderImages.find(p => p.id === "project-1")?.imageUrl ?? "",
-    imageHint: placeholderImages.find(p => p.id === "project-1")?.imageHint ?? "text summarization",
+    imageHint: "text summarization",
     repoUrl: 'https://github.com/richard476/Advanced-Text-Summarizer-using-Google_Gemini-API',
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
-    imageHint: placeholderImages.find(p => p.id === "project-2")?.imageHint ?? "cricket management",
+    imageHint: "cricket management",
     repoUrl: 'https://github.com/richard476/Cricket-Team-management-System',
   },
   {
@@ -61,7 +61,7 @@ export const projects = [
     ],
     technologies: ['Python', 'Tkinter', 'Pygame', 'Pydub', 'ffmpeg'],
     image: placeholderImages.find(p => p.id === "project-3")?.imageUrl ?? "",
-    imageHint: placeholderImages.find(p => p.id === "project-3")?.imageHint ?? "music player",
+    imageHint: "music player",
     repoUrl: 'https://github.com/richard476/Music-Player-using-Swift-for-IOS',
   },
 ];
