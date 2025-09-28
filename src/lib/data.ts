@@ -52,11 +52,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Cricket Team Management System using Machine Learning',
+    title: 'Cricket Team Management System using Database Management System',
     description: [
-      'Developed a Cricket Team Management System using Python and machine learning to optimize player selection and performance analysis.',
-      'Built predictive models to forecast player performance, suggest team strategies, and reduce injury risks.',
-      'Designed a modular architecture integrating ML models, database systems, and user roles for efficient team management workflows.',
+      'Developed a Cricket Team Management System using Python and a robust database to manage player information and team statistics.',
+      'Designed and implemented a database schema to handle player data, match schedules, and performance records.',
+      'Built a user-friendly interface for managing team rosters, viewing player profiles, and tracking team performance.',
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
