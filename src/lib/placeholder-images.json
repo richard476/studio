@@ -3,20 +3,20 @@
     {
       "id": "project-1",
       "description": "A placeholder image for a text summarization project.",
-      "imageUrl": "https://images.unsplash.com/photo-1551643556-0e32e30fc8e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGV4dCUyMHN1bW1hcml6YXRpb258ZW58MHx8fHwxNzU5MDQwODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "text summarization"
+      "imageUrl": "https://images.unsplash.com/photo-1588590523024-11a349d44347?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuYXR1cmFsJTIwbGFuZ3VhZ2UlMjBwcm9jZXNzaW5nfGVufDB8fHx8MTc1OTU2NjE4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "natural language processing"
     },
     {
       "id": "project-2",
       "description": "A placeholder image for a cricket management system.",
-      "imageUrl": "https://images.unsplash.com/photo-1685541000527-662e48d677a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwbWFuYWdlbWVudHxlbnwwfHx8fDE3NTkwNDA4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cricket management"
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGF5ZXIlMjBzdGF0aXN0aWNzfGVufDB8fHx8MTc1OTU2NjI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player statistics"
     },
     {
       "id": "project-3",
       "description": "A placeholder image for a music player project.",
-      "imageUrl": "https://images.unsplash.com/photo-1647489238455-fd12b591d064?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtdXNpYyUyMHBsYXllcnxlbnwwfHx8fDE3NTg5OTY3NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "music player"
+      "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHBsYXllciUyMGludGVyZmFjZXxlbnwwfHx8fDE3NTk1NjYzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music player interface"
     }
   ]
 }
