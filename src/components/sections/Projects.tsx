@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import { projects } from "@/lib/data";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github } from "lucide-react";
@@ -20,12 +20,11 @@ export function Projects() {
           </p>
         </AnimatedSection>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-2">
           {projects.map((project, index) => (
             <AnimatedSection key={project.id} style={{ transitionDelay: `${index * 100}ms` }}>
               <Card className="h-full flex flex-col overflow-hidden transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
-                <CardHeader>
-                  <div className="aspect-video relative overflow-hidden rounded-lg mb-4">
+                <div className="aspect-video relative overflow-hidden">
                      <Image
                       src={project.image}
                       alt={project.title}
@@ -33,18 +32,27 @@ export function Projects() {
                       className="object-cover"
                       data-ai-hint={project.imageHint}
                     />
-                  </div>
-                  <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
-                  <CardDescription>{project.description}</CardDescription>
+                </div>
+                <CardHeader>
+                  <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow">
-                   {/* Can add tags or other content here */}
+                <CardContent className="flex-grow space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.map((tech) => (
+                      <Badge key={tech} variant="secondary">{tech}</Badge>
+                    ))}
+                  </div>
+                   <ul className="list-disc pl-5 space-y-2 text-muted-foreground text-sm">
+                    {project.description.map((point, i) => (
+                      <li key={i}>{point}</li>
+                    ))}
+                  </ul>
                 </CardContent>
-                <CardFooter className="flex justify-end gap-2">
+                <CardFooter className="flex justify-end gap-2 pt-4">
                   <Button variant="outline" asChild>
                     <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" />
-                      Source
+                      Source Code
                     </a>
                   </Button>
                 </CardFooter>
