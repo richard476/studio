@@ -43,7 +43,7 @@ export function ContactForm() {
     },
   });
 
-  const { formState, setError } = form;
+  const { formState } = form;
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
