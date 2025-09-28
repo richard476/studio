@@ -49,7 +49,7 @@ export const projects = [
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
     imageHint: placeholderImages.find(p => p.id === "project-2")?.imageHint ?? "cricket management",
-    repoUrl: '#',
+    repoUrl: 'https://github.com/richard476/Cricket-Team-management-System',
   },
   {
     id: 3,
