@@ -11,17 +11,29 @@ export const navLinks = [
 ];
 
 export const skills = [
-  'React',
-  'Next.js',
-  'TypeScript',
+  'Python',
   'JavaScript',
-  'Node.js',
-  'GraphQL',
-  'PostgreSQL',
-  'Firebase',
+  'HTML',
+  'SQL',
+  'Git',
+  'Streamlit',
+  'Uvicorn',
+  'Google Cloud Platform',
+  'VS Code',
+  'Excel',
+  'Power Bi',
+  'Flask',
+  'Three.js',
   'Tailwind CSS',
-  'Figma',
-  'Docker',
+  'PDF.js',
+  'Web Speech API',
+  'Google Gemini API',
+  'Pandas',
+  'Numpy',
+  'TensorFlow',
+  'PyTorch',
+  'Transformers',
+  'FastAPI',
 ];
 
 export const projects = [
