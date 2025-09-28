@@ -4,7 +4,7 @@ import { projects } from "@/lib/data";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import { AnimatedSection } from "../common/AnimatedSection";
 
 export function Projects() {
@@ -45,12 +45,6 @@ export function Projects() {
                     <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Source
-                    </a>
-                  </Button>
-                  <Button asChild>
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Site
                     </a>
                   </Button>
                 </CardFooter>
