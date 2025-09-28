@@ -35,7 +35,7 @@ export const projects = [
     ],
     technologies: ['Python', 'HTML5', 'JavaScript', 'CSS3/Tailwind CSS', 'Gemini API'],
     image: placeholderImages.find(p => p.id === "project-1")?.imageUrl ?? "",
-    imageHint: "text summarization",
+    imageHint: "natural language processing",
     repoUrl: 'https://github.com/richard476/Advanced-Text-Summarizer-using-Google_Gemini-API',
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     ],
     technologies: ['Python', 'CSS', 'SQL', 'HTML', 'PHP', 'JavaScript'],
     image: placeholderImages.find(p => p.id === "project-2")?.imageUrl ?? "",
-    imageHint: "cricket management",
+    imageHint: "player statistics",
     repoUrl: 'https://github.com/richard476/Cricket-Team-management-System',
   },
   {
@@ -61,7 +61,7 @@ export const projects = [
     ],
     technologies: ['Python', 'Tkinter', 'Pygame', 'Pydub', 'ffmpeg'],
     image: placeholderImages.find(p => p.id === "project-3")?.imageUrl ?? "",
-    imageHint: "music player",
+    imageHint: "music player interface",
     repoUrl: 'https://github.com/richard476/Music-Player-using-Swift-for-IOS',
   },
 ];
@@ -69,17 +69,17 @@ export const projects = [
 export const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com',
+    url: 'https://github.com/richard476',
     icon: Github,
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com',
+    url: 'https://www.linkedin.com/in/richard-abishekraj-34981a300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     icon: Linkedin,
   },
   {
     name: 'Mail',
-    url: 'mailto:richard.abishekraj@email.com',
+    url: 'mailto:richardabishekraj@gmail.com',
     icon: Mail,
   },
 ];
